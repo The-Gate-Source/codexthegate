@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="jp">
 <head>
@@ -6,20 +5,35 @@
     <title>Sealtiel</title>
     <style>
         body {
-            background-color: black;
             margin: 0;
-            padding: 0;
+            background: black;
+            text-align: center;
         }
         img {
-            width: 100vw;
-            height: 100vh;
-            object-fit: contain;
-            display: block;
-            margin: auto;
+            max-width: 100%;
+            height: auto;
+        }
+        .lang-switch {
+            position: absolute;
+            top: 10px;
+            width: 100%;
+            text-align: center;
+            font-size: 0.9em;
+            color: white;
+        }
+        .lang-switch a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
         }
     </style>
 </head>
 <body>
-    <img src="Sealtiel - JPN.png" alt="Sealtiel jp">
+    <div class="lang-switch">
+        <a href="sealtiel-en.html">EN</a> · 
+        <a href="sealtiel-de.html">DE</a> · 
+        <a href="sealtiel-jp.html">JP</a>
+    </div>
+    <img src="Sealtiel - JPN.png" alt="Sealtiel">
 </body>
 </html>
